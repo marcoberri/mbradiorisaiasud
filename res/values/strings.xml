@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Radio Risaia Sud Band</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="band_title">Radio Risaia Sud Band</string>
+    <string name="band_story">
+        I Radio Risaia Sud nascono artisticamente nel 1996 con i musicisti della "Mancastroppa Band", attualmente Doctor Groove.\n
+Registrano un demo-tape negli studi di Beppe Crovella, con la collaborazione di Cesare Petrelli come arrangiatore e musicista.\n
+I pezzi sono in dialetto vercellese e parlano di personaggi, modi di dire e storie legati al territorio.\n
+Le musiche abbinate ai testi sono di matrice popolare che vanno dal blues al reggae alla ballata.\n
+\n
+La prima uscita live del gruppo è stata presso il mitico "Folk Club" di Torino, locale dove si sono esibiti i più grandi artisti del genere folk ed etnico. La risposta del pubblico ha motivato a scrivere altri pezzi sino a raggiungere i 20 brani tutti ispirati a racconti popolari. Ultimamente stanno lavorando ad un nuovo cd con materiale inedito.\n
+\n
+I Radio Risaia Sud hanno inserito dalla formazione iniziale Marco Berri al basso e Sandro Marinoni al sax.\n
+Gli ultimi concerti si sono tenuti al teatro civico di Vercelli e nella chiesa sconsacrata di San Germano Vercellese.\n
+\n
+La formazione attualmente è:\n
+\n
+Silvano Coggiola: voce e chitarra\n
+Roberto Ceresa: chitarra\n
+Marco Berri: basso\n
+Sandro Marinoni: sax\n
+Luciano Vescovo: batteria\n
+    </string>
+
+</resources>
