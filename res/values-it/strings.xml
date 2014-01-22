@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">Radio Risaia Sud Band</string>
-<string name="action_settings">Options</string>
+    <string name="action_settings">Options</string>
     <string name="band_title">Radio Risaia Sud Band</string>
     <string name="band_story">I Radio Risaia Sud nascono artisticamente nel 1996 con i musicisti della "Mancastroppa Band", attualmente Doctor Groove.\n
 Registrano un demo-tape negli studi di Beppe Crovella, con la collaborazione di Cesare Petrelli come arrangiatore e musicista.\n

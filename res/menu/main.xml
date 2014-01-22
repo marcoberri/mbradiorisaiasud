@@ -3,7 +3,24 @@
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
-        android:showAsAction="never"
-        android:title="@string/action_settings"/>
+        android:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_info_details"
+        >
+        <menu>
+            <item
+                android:id="@+id/menu_main_gallery"
+                android:title="@string/gallery"
+                android:icon="@android:drawable/ic_menu_gallery"
+                />
+            <item
+                android:id="@+id/menu_main_website"
+                android:title="@string/web_site"
+                android:icon="@android:drawable/ic_menu_info_details"
+                />
+            <item
+                android:id="@+id/menu_main_facebook"
+                android:title="@string/facebook"/>
+        </menu>
+    </item>
 
 </menu>
