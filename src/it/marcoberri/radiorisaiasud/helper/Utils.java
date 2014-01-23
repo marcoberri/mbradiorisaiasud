@@ -1,4 +1,4 @@
-package it.marcoberri.radiorisaiasud;
+package it.marcoberri.radiorisaiasud.helper;
 
 import java.util.List;
 
