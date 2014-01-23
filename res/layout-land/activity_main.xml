@@ -9,8 +9,11 @@
         android:id="@+id/titleBand"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/band_title" />
+        android:text="@string/band_title" 
+         android:textAppearance="?android:attr/textAppearanceLarge"
+        />
 
+    
     <ImageView
         android:id="@+id/imageHome"
         android:layout_width="wrap_content"
@@ -26,7 +29,9 @@
         android:id="@+id/textView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@id/imageHome" >
+        android:layout_toRightOf="@id/imageHome" 
+        android:scrollbars="vertical"
+        >
 
         <TextView
             android:layout_width="wrap_content"
@@ -34,5 +39,7 @@
             android:text="@string/band_story"
             android:textAppearance="?android:attr/textAppearanceSmall" />
     </ScrollView>
+
+
 
 </RelativeLayout>

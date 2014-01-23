@@ -1,24 +1,29 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <item
+        android:id="@+id/action_play"
+        android:showAsAction="always"
+        android:title="@string/play"
+        android:icon="@drawable/ic_play"
+        
+         />
+    <item
         android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:showAsAction="ifRoom"
         android:icon="@android:drawable/ic_menu_info_details"
-        >
+        android:showAsAction="ifRoom"
+        android:title="@string/info">
         <menu>
             <item
                 android:id="@+id/menu_main_gallery"
-                android:title="@string/gallery"
                 android:icon="@android:drawable/ic_menu_gallery"
-                />
+                android:title="@string/gallery"/>
             <item
                 android:id="@+id/menu_main_website"
-                android:title="@string/web_site"
-                android:icon="@android:drawable/ic_menu_info_details"
-                />
+                android:icon="@android:drawable/ic_menu_gallery"
+                android:title="@string/web_site"/>
             <item
                 android:id="@+id/menu_main_facebook"
+                android:icon="@drawable/ic_facebook"
                 android:title="@string/facebook"/>
         </menu>
     </item>

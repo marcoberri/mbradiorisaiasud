@@ -25,5 +25,8 @@ Luciano Vescovo: batteria\n</string>
     <string name="gallery">Fotografie</string>
     <string name="web_site">Web</string>
     <string name="facebook">Facebook</string>
+    <string name="menu">menu</string>
+    <string name="play">Play</string>
+    <string name="info">More Info</string>
 
 </resources>

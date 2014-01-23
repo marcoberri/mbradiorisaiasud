@@ -13,7 +13,9 @@
         android:id="@+id/titleBand"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/band_title" />
+        android:text="@string/band_title" 
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
 
     <ImageView
         android:id="@+id/imageHome"
@@ -30,7 +32,9 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/imageHome" >
+        android:layout_below="@id/imageHome" 
+        android:scrollbars="vertical"
+        >
 
         <TextView
             android:layout_width="wrap_content"
