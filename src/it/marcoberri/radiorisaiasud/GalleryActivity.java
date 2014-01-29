@@ -24,6 +24,7 @@ public class GalleryActivity extends Main implements OnItemSelectedListener {
 	}
 
 	@Override
+<<<<<<< HEAD
 	public boolean onCreateOptionsMenu(Menu menu) {
 		return true;
 	}
@@ -59,6 +60,8 @@ public class GalleryActivity extends Main implements OnItemSelectedListener {
 	}
 
 	@Override
+=======
+>>>>>>> 35962149f801eff4b3bd456a1352ba1704502965
 	public void onItemSelected(AdapterView<?> arg0, View arg1, int arg2,
 			long arg3) {
 		// TODO Auto-generated method stub

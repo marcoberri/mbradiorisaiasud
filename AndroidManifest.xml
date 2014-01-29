@@ -26,6 +26,7 @@
             </intent-filter>
         </activity>
         <activity
+            android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden" 
             android:name="it.marcoberri.radiorisaiasud.GalleryActivity"
             android:label="@string/title_activity_gallery"
              android:screenOrientation="landscape" 
