@@ -25,7 +25,13 @@
                 android:id="@+id/menu_main_facebook"
                 android:icon="@drawable/ic_facebook"
                 android:title="@string/facebook"/>
+            <item
+                android:id="@+id/menu_main_email"
+                android:icon="@drawable/ic_email"
+                android:title="@string/email"/>            
         </menu>
+        
+        
     </item>
 
 </menu>

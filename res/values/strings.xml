@@ -28,5 +28,6 @@ Luciano Vescovo: batteria\n</string>
     <string name="menu">menu</string>
     <string name="play">Play</string>
     <string name="info">More Info</string>
+    <string name="email">Email</string>
 
 </resources>
