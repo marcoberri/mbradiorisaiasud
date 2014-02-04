@@ -55,8 +55,11 @@ public class MainActivity extends Activity  implements OnItemSelectedListener {
 			Utils.launchFacebookPage("Radio-Risaia-Sud/224882854223371",
 					getPackageManager(), this);
 			return true;
-		case R.id.menu_main_email:
-			return true;			
+		case R.id.menu_main_video:
+			return true;	
+		case R.id.menu_main_story:
+			setContentView(R.layout.activity_main);
+			return true;				
 		case R.id.action_play:
 			final boolean play = MusicPlayer.toggle(this, R.raw.mulitta_mulit);
 			if (play) {
