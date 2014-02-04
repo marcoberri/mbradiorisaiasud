@@ -15,7 +15,7 @@
         <menu>
             <item
                 android:id="@+id/menu_main_gallery"
-                android:icon="@android:drawable/ic_menu_gallery"
+                android:icon="@drawable/ic_gallery"
                 android:title="@string/gallery"/>
             <item
                 android:id="@+id/menu_main_website"
@@ -28,7 +28,11 @@
             <item
                 android:id="@+id/menu_main_email"
                 android:icon="@drawable/ic_email"
-                android:title="@string/email"/>            
+                android:title="@string/email"/>
+             <item
+                android:id="@+id/menu_main_story"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="Story"/> 
         </menu>
         
         

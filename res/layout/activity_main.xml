@@ -8,13 +8,17 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity" 
+    android:background="@drawable/background"
+    >
     
+          
     <TextView
         android:id="@+id/titleBand"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/band_title" 
+        android:textColor="#FFFFFF"
         android:textAppearance="?android:attr/textAppearanceLarge"
         />
 
@@ -40,6 +44,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/default_margin"
             android:text="@string/band_story"
+             android:textColor="#FFFFFF"
             android:textAppearance="?android:attr/textAppearanceSmall" />
     </ScrollView>
 
