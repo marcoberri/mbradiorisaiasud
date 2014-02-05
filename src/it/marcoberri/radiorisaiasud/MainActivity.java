@@ -17,6 +17,8 @@ import android.widget.VideoView;
 
 public class MainActivity extends Activity implements OnItemSelectedListener {
 
+	private Menu menu;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -38,6 +40,8 @@ public class MainActivity extends Activity implements OnItemSelectedListener {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		getMenuInflater().inflate(R.menu.main, menu);
+	
+		this.menu = menu;
 		return true;
 	}
 	
@@ -58,6 +62,8 @@ public class MainActivity extends Activity implements OnItemSelectedListener {
 			return true;
 		case R.id.menu_main_video:
 			MusicPlayer.pause();
+			final MenuItem playButton = menu.findItem(R.id.action_play);
+			playButton.setIcon(R.drawable.ic_pause);
 			setContentView(R.layout.activity_video);
 			final Uri uri = Uri.parse("android.resource://" + getPackageName() +  "/" + R.raw.video_mulitta_mulit);
 		    final VideoView video = (VideoView)findViewById(R.id.videoView1);
