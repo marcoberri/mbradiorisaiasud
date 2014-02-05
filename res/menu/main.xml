@@ -17,6 +17,15 @@
                 android:id="@+id/menu_main_gallery"
                 android:icon="@drawable/ic_gallery"
                 android:title="@string/gallery"/>
+           <item
+                android:id="@+id/menu_main_video"
+                android:icon="@drawable/ic_facebook"
+                android:title="Video"/>
+            <item
+                android:id="@+id/menu_main_story"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="Story"/> 
+           
             <item
                 android:id="@+id/menu_main_website"
                 android:icon="@android:drawable/ic_menu_gallery"
@@ -25,14 +34,6 @@
                 android:id="@+id/menu_main_facebook"
                 android:icon="@drawable/ic_facebook"
                 android:title="@string/facebook"/>
-            <item
-                android:id="@+id/menu_main_email"
-                android:icon="@drawable/ic_email"
-                android:title="@string/email"/>
-             <item
-                android:id="@+id/menu_main_story"
-                android:icon="@android:drawable/ic_menu_help"
-                android:title="Story"/> 
         </menu>
         
         

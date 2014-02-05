@@ -11,16 +11,6 @@
     tools:context=".MainActivity" 
     android:background="@drawable/background"
     >
-    
-          
-    <TextView
-        android:id="@+id/titleBand"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/band_title" 
-        android:textColor="#FFFFFF"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        />
 
     <ImageView
         android:id="@+id/imageHome"
