@@ -3,6 +3,7 @@ package it.marcoberri.radiorisaiasud;
 import it.marcoberri.radiorisaiasud.helper.MusicPlayer;
 import it.marcoberri.radiorisaiasud.helper.Utils;
 import android.app.Activity;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
@@ -64,13 +65,7 @@ public class MainActivity extends Activity implements OnItemSelectedListener {
 			MusicPlayer.pause();
 			final MenuItem playButton = menu.findItem(R.id.action_play);
 			playButton.setIcon(R.drawable.ic_pause);
-			setContentView(R.layout.activity_video);
-			final Uri uri = Uri.parse("android.resource://" + getPackageName() +  "/" + R.raw.video_mulitta_mulit);
-		    final VideoView video = (VideoView)findViewById(R.id.videoView1);
-		    video.setVideoURI(uri);
-		    video.setMediaController(new MediaController(this)); 
-		    video.requestFocus(); 
-		    video.start(); 	
+			startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.youtube.com/watch?v=TeQXabhI1eg")));
 			return true;
 		case R.id.menu_main_story:
 			setContentView(R.layout.activity_main);
