@@ -15,11 +15,11 @@
         <menu>
             <item
                 android:id="@+id/menu_main_gallery"
-                android:icon="@drawable/ic_gallery"
+                android:icon="@drawable/ic_menu_gallery"
                 android:title="@string/gallery"/>
            <item
                 android:id="@+id/menu_main_video"
-                android:icon="@drawable/ic_facebook"
+                android:icon="@drawable/ic_menu_video"
                 android:title="Video"/>
             <item
                 android:id="@+id/menu_main_story"
@@ -32,7 +32,7 @@
                 android:title="@string/web_site"/>
             <item
                 android:id="@+id/menu_main_facebook"
-                android:icon="@drawable/ic_facebook"
+                android:icon="@drawable/ic_menu_facebook"
                 android:title="@string/facebook"/>
         </menu>
         
